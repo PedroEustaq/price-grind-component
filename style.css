@@ -1,0 +1,141 @@
+* {
+    margin: 0px;
+    box-sizing: 0px;
+    padding: 0px;
+
+    font-family: "Karla", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(230,239,246,255);
+}
+main#pacote1 {
+    width: 45vw;
+    height: 70vh;
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    box-shadow: 0px 0px 11px 1px rgba(0, 0, 0, 0.142);
+}
+section#parteCima {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    height: 40%;
+    align-items: center;
+}
+section#parteCima > section {
+    height: 65%;
+    width: 85%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+section#parteCima > section  > h1 {
+    color:  #3da9a2;
+    font-weight: 600;
+    font-size: 27px;
+    margin-bottom: 10px;
+}
+section#parteCima > section  > h2 {
+    color:  hsl(71, 73%, 54%);
+    font-weight: 600;
+    font-size: 20px;
+}
+section#parteCima  > section > h3 {
+    color:  hsl(218, 22%, 67%);
+    font-weight: 500;
+    font-size: 1.1vw;
+}
+section#parteAbaixo {
+    display: flex;
+    flex-flow: row nowrap;
+    height: 60%;
+    border-bottom-right-radius: 15px;
+}
+section#parteAbaixo > section {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    width: 50%;
+    background-color: rgba(43,179,177,255);
+    height: 100%;
+    color: white;
+    align-items: center;
+    border-bottom-left-radius: 15px;
+}
+div#Esquerd > h1 {
+    font-weight: 700;
+    font-size: 22px;
+}
+section#parteAbaixo > section > div#Esquerd {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    height: 70%;
+    width: 80%;
+
+}
+div#dinero {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    width: 100%;
+}
+div#Esquerd > div#dinero {
+    font-size: 30px;
+}
+div#dinero >  h12 {
+    font-size: 20px;
+    color: hsla(0, 0%, 100%, 0.467);
+}
+section#parteAbaixo > section > div#Esquerd > button {
+    border: 0px solid white;
+    background-color: greenyellow;
+    color: white;
+    font-weight: 700;
+    height: 60px;
+    font-size: 19px;
+    border-radius: 5px;
+    width: 100%;
+    box-shadow:  0px 0px 20px 0px hsla(0, 0%, 0%, 0.208);
+}
+section#parteAbaixo > section > div#Esquerd > button:hover {
+    cursor: pointer;
+}
+div#Direit {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    height: 100%;
+    width: 50%;
+    align-items: center;
+    background-color: rgba(74,190,189,255);
+    color: white;
+    border-bottom-right-radius: 15px;
+}
+div#Direit > section {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    width: 80%;
+    height: 70%;
+}
+div#Direit  > section > p {
+    margin-bottom: 40px;
+    color: hsla(0, 0%, 100%, 0.681);
+}
+div#Direit > section > h1 {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 25px;
+}
