@@ -1,0 +1,36 @@
+@media (max-width: 768px) {
+    body {
+        align-items: start;
+        height: 100vh;
+    }
+    section#parteCima > section > h3 {
+        font-size: 11px;
+        margin-top: 10px;
+    }
+    main#pacote1 {
+        margin: 20px;
+        width: 90vw;
+        height: 700px;
+    }
+    section#parteCima {
+        height: 30%;
+    }
+    section#parteAbaixo {
+        flex-flow: column nowrap;
+        width: 100%;
+        height: 70%;
+    }
+    section#parteAbaixo > section {
+        width: 100%;
+        border-bottom-left-radius: 0px;
+        height: 3000px;
+    }
+    section#parteAbaixo > section > div#Esquerd {
+
+    }
+    div#Direit {
+        width: 100%;
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
+}
